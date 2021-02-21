@@ -11,11 +11,12 @@ public class SpotTrigger : MonoBehaviour
     {
         this.spot = spot;
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag($"Player"))
         {
-            spot.DisableSpot();
+            spot.Disable();
         }
     }
 }

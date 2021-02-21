@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Tinamou\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Tinamou\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_PizzaDeliveryRacing.461838064.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\PizzaDeliveryRacing" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CarController" t="Include">
+            <e p="CarController.cs" t="Include" />
+            <e p="CarModel.cs" t="Include" />
+          </e>
+          <e p="Container" t="Include">
+            <e p="DependencyResolver.cs" t="Include" />
+          </e>
+          <e p="DriftController" t="Include">
+            <e p="DriftController.cs" t="Include" />
+          </e>
+          <e p="DriveState" t="Include">
+            <e p="FourWheelDriveDrive.cs" t="Include" />
+            <e p="FrontWheelDrive.cs" t="Include" />
+            <e p="RearWheelDrive.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CashSpotDetector.cs" t="Include" />
+            <e p="DestinationSpotDetector.cs" t="Include" />
+            <e p="PizzaPickupSpotDetector.cs" t="Include" />
+          </e>
+          <e p="Gameplay" t="Include">
+            <e p="CashSpot.cs" t="Include" />
+            <e p="DestinationSpot.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="PizzaPickupSpot.cs" t="Include" />
+            <e p="Spot.cs" t="Include" />
+            <e p="SpotTrigger.cs" t="Include" />
+          </e>
+          <e p="InputManager" t="Include">
+            <e p="UserInputManager.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="ICarDriveState.cs" t="Include" />
+            <e p="ICarLightController.cs" t="Include" />
+            <e p="IDriftController.cs" t="Include" />
+            <e p="IUserInput.cs" t="Include" />
+          </e>
+          <e p="LightController" t="Include">
+            <e p="LightController.cs" t="Include" />
+          </e>
+          <e p="Minimap" t="Include">
+            <e p="MiniMapController.cs" t="Include" />
+            <e p="TargetRotationFixture.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="GameUIManager.cs" t="Include" />
+            <e p="MenuUIManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="PizzaDeliveryRacing.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
