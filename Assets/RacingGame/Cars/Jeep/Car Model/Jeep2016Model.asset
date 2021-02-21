@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee306a0122a4ef6b1e2ff92eb712391, type: 3}
+  m_Name: Jeep2016Model
+  m_EditorClassIdentifier: 
+  engineTorque:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1000
+      value: 2998.8872
+      inSlope: -1.362178
+      outSlope: -1.362178
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.62230927
+    - serializedVersion: 3
+      time: 1140.4409
+      value: 2483.5554
+      inSlope: -0.042011213
+      outSlope: -0.042011213
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30927426
+      outWeight: 0.18825838
+    - serializedVersion: 3
+      time: 6000
+      value: 1900
+      inSlope: -0.40050128
+      outSlope: -0.40050128
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.121242516
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  minRPM: 1000
+  maxRPM: 6000
+  downForce: 200
+  wheelsNumber: 4
+  steerRadius: 6
+  brakeForce: 60000
