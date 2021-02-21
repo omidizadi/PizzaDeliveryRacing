@@ -1,7 +1,7 @@
 # PizzaDeliveryRacing
 In this simple game you have to deliver pizza to some destinations with your Jeep and earn cash!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SmAQLZSyS3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Youtube Video](https://img.youtube.com/vi/SmAQLZSyS3g/0.jpg)](https://youtu.be/SmAQLZSyS3g)
 
 TODO:
 Bonus cash feature!
