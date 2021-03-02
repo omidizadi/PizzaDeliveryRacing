@@ -128,8 +128,7 @@ public class CarController : MonoBehaviour
 
     private void HandleBrake()
     {
-        if (brakeValue > 0) carDriveState.HandleBrake(wheelColliders, carModel.brakeForce);
-        else carDriveState.HandleBrake(wheelColliders, 0);
+        carDriveState.HandleBrake(wheelColliders, carModel.brakeForce * brakeValue);
     }
 
     private void UpdateWheels()
@@ -146,5 +145,4 @@ public class CarController : MonoBehaviour
     {
         carRigidBody.AddForce(carRigidBody.velocity.magnitude * carModel.downForce * -carTransform.up);
     }
-
 }

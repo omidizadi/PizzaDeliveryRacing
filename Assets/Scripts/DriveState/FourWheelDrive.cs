@@ -1,11 +1,11 @@
 ﻿using System;
 using UnityEngine;
 
-public class FourWheelDriveDrive : ICarDriveState
+public class FourWheelDrive : ICarDriveState
 {
     private IDriftController driftController;
 
-    public FourWheelDriveDrive(IDriftController driftController)
+    public FourWheelDrive(IDriftController driftController)
     {
         this.driftController = driftController;
     }

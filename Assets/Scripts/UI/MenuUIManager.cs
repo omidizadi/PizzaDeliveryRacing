@@ -12,7 +12,7 @@ public class MenuUIManager : MonoBehaviour
     private void Start()
     {
         gameManager = DependencyResolver.ResolveSingleton<GameManager>();
-        carController.SetState(new FourWheelDriveDrive(new DriftController()));
+        carController.SetState(new FourWheelDrive(new DriftController()));
 
     }
     
@@ -23,7 +23,7 @@ public class MenuUIManager : MonoBehaviour
 
     public void SetCarFourWheelDrive()
     {
-        carController.SetState(new FourWheelDriveDrive(new DriftController()));
+        carController.SetState(new FourWheelDrive(new DriftController()));
         driveStylePanel.SetActive(false);
     }  
     public void SetCarFrontWheelDrive()

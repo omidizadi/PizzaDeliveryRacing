@@ -89,6 +89,6 @@ public class MiniMapController : MonoBehaviour
 
     private float ClampDistanceToTarget(float value)
     {
-        return Mathf.Clamp(value * targetMaxDistanceInMiniMap / targetMaxDistanceInMap, 0, 140);
+        return Mathf.Clamp(value * targetMaxDistanceInMiniMap / targetMaxDistanceInMap, 0, targetMaxDistanceInMiniMap);
     }
 }
