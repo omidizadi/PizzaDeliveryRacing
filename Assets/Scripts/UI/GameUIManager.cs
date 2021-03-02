@@ -22,7 +22,7 @@ public class GameUIManager : MonoBehaviour
 
     private void Start()
     {
-        gameManager = DependencyResolver.ResolveGameManager();
+        gameManager = DependencyResolver.ResolveSingleton<GameManager>();
         gameManager.OnDestinationReached +=
             () => ShowToast("Congrats! You delivered pizza successfully! Now head to the next pizza!", 2f);
         gameManager.OnPizzaPicked += () =>

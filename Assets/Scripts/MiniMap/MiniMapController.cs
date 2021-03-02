@@ -27,7 +27,7 @@ public class MiniMapController : MonoBehaviour
 
     private void Start()
     {
-        gameManager = DependencyResolver.ResolveGameManager();
+        gameManager = DependencyResolver.ResolveSingleton<GameManager>();
     }
 
     private void Update()
