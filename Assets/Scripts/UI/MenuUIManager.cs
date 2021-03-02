@@ -11,7 +11,7 @@ public class MenuUIManager : MonoBehaviour
     
     private void Start()
     {
-        gameManager = DependencyResolver.ResolveGameManager();
+        gameManager = DependencyResolver.ResolveSingleton<GameManager>();
         carController.SetState(new FourWheelDriveDrive(new DriftController()));
 
     }

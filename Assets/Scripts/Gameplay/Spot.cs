@@ -13,7 +13,7 @@ public abstract class Spot : MonoBehaviour
 
     private void Start()
     {
-        gameManager = DependencyResolver.ResolveGameManager();
+        gameManager = DependencyResolver.ResolveSingleton<GameManager>();
         worldPosition = gameObject.transform.position;
     }
 

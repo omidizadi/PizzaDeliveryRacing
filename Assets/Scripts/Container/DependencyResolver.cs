@@ -6,14 +6,14 @@ public class DependencyResolver : MonoBehaviour
 {
     private static Dictionary<Type, MonoBehaviour> singletons = new Dictionary<Type, MonoBehaviour>();
 
-    public static GameManager ResolveGameManager()
+    public static T ResolveSingleton<T>() where T: MonoBehaviour
     {
-        if (singletons.ContainsKey(typeof(GameManager)))
+        if (singletons.ContainsKey(typeof(T)))
         {
-            return (GameManager) singletons[typeof(GameManager)];
+            return (T) singletons[typeof(T)];
         }
 
-        var instance = FindObjectOfType<GameManager>();
-        return instance;
+        var instance = FindObjectOfType<T>();
+        return  instance;
     }
 }
