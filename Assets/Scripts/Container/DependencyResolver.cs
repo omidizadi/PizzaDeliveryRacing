@@ -14,4 +14,9 @@ public class DependencyResolver : MonoBehaviour
         singletons.Add(typeof(T), instance);
         return instance;
     }
+
+    public static void FlushContainer()
+    {
+        singletons.Clear();
+    }
 }

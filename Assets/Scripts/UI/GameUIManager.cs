@@ -48,6 +48,7 @@ public class GameUIManager : MonoBehaviour
 
     public void Restart()
     {
+        DependencyResolver.FlushContainer();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
